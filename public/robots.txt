@@ -1,1 +1,1 @@
-Sitemap: https://horizon.cosmicthemes.com/sitemap-index.xml
+Sitemap: http://sithesinger.com/sitemap-index.xml

@@ -6,7 +6,8 @@ export interface SiteDataProps {
 	author: {
 		name: string;
 		email: string;
-		twitter: string; // used for twitter cards when sharing a blog post on twitter
+		tel: string;
+		// twitter: string; // used for twitter cards when sharing a blog post on twitter
 	};
 	defaultImage: {
 		src: string;
@@ -16,23 +17,24 @@ export interface SiteDataProps {
 
 // Update this file with your site specific information
 const siteData: SiteDataProps = {
-	name: "Horizon Photography",
+	name: "Si Dartford",
 	// Your website's title and description (meta fields)
-	title: "Horizon - a beautiful photography website template made with Astro and Tailwind CSS",
+    title: "Si Dartford - Singer Acoustic Performer, a one man festival",
 	description:
-		"Get your next website up and running quickly with our beautiful website theme designed using Astro and Tailwind CSS. Perfect for freelancers, developers, startups, and personal use.",
+		"The perfect musician for your special event. Ideal from weddings to corporate events.",
 	useViewTransitions: true,
 	// Your information!
 	author: {
-		name: "Cosmic Themes",
-		email: "creator@cosmicthemes.com",
-		twitter: "Cosmic_Themes",
+		name: "Si Dartford",
+        email: "sidartford@gmail.com",
+        tel: "07708 398 362",
+		// twitter: "sithesinger",
 	},
 
 	// default image for meta tags if the page doesn't have an image already
 	defaultImage: {
 		src: "/images/cosmic-themes-logo.jpg",
-		alt: "Cosmic Themes logo",
+		alt: "Si Dartford",
 	},
 };
 

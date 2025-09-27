@@ -44,11 +44,11 @@
 	}
 
 	.h2 {
-		@apply font-heading-1 text-2xl leading-tight tracking-wide uppercase md:text-[2.5rem] md:leading-tight;
+		@apply font-heading-1 text-2xl leading-tight tracking-wide md:text-[2.5rem] md:leading-tight;
 	}
 
 	.h3 {
-		@apply font-heading-2 text-lg leading-tight font-medium tracking-widest uppercase md:text-2xl md:leading-tight;
+		@apply font-heading-2 text-lg leading-tight font-medium tracking-widest md:text-2xl md:leading-tight;
 	}
 
 	.description {
@@ -71,7 +71,7 @@
 
 	/* styles navbar links */
 	.nav__link--base {
-		@apply font-heading-1 px-4 py-2 tracking-wide uppercase transition duration-200 hover:opacity-80;
+		@apply font-heading-1 px-4 py-2 tracking-wide transition duration-200 hover:opacity-80;
 	}
 }
 
